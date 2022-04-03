@@ -1,1 +1,18 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.container{
+    margin-top: 2.5rem;
+}
+
+#logo{
+    padding-left: 5rem;
+}
+
+.is-link{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.title{
+    padding-top: 1.0rem;
+}
