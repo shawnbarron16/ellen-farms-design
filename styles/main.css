@@ -1,7 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
-.container{
-    margin-top: 2.5rem;
+.columns{
+    padding-top: 1.5rem;
 }
 
 #logo{
@@ -11,8 +11,18 @@
 .is-link{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    color: #ff7089;
+    font-family: 'Italianno', cursive;
+    font-size: xx-large;
 }
 
 .title{
     padding-top: 1.0rem;
+    font-family: 'Italianno', cursive;
+    font-size: 3.0rem;
+    color: #ff7089;
+}
+
+.body{
+    background-color: #e8e8e8;
 }
