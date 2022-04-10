@@ -1,0 +1,41 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.body{
+    background-color: #d1d1d1;
+}
+
+#title{
+    padding-top: 1.0rem;
+    font-family: 'Italianno', cursive;
+    font-size: 5.0rem;
+    color: #ff7089;
+}
+
+.is-link{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #ff7089;
+    font-family: 'Italianno', cursive;
+    font-size: 2.5rem;
+}
+
+.dropdown-item{
+    padding-left: 2rem;
+    color: #ff7089;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem;
+}
+
+.is-child{
+    border: 2px solid #ff7089;
+}
+
+.menu{
+    background-color: white;
+    border: 2px solid #ff7089;
+}
+
+.dropwdown-content{
+    background-color: white;
+    border: 2px solid #ff7089;
+}
