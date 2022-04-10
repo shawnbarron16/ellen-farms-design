@@ -4,6 +4,10 @@
     padding-top: 1.5rem;
 }
 
+#property-image{
+    padding-right: 24.5rem;
+}
+
 #logo{
     padding-left: 5rem;
 }
@@ -13,33 +17,56 @@
     padding-right: 0.5rem;
     color: #ff7089;
     font-family: 'Italianno', cursive;
-    font-size: xx-large;
+    font-size: 2.5rem;
 }
 
-.title{
+#title{
     padding-top: 1.0rem;
+    font-family: 'Italianno', cursive;
+    font-size: 5.0rem;
+    color: #ff7089;
+}
+
+.subtitle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2.0rem;
+    color: #ff7089;
+}
+
+.main-subtitle{
     font-family: 'Italianno', cursive;
     font-size: 3.0rem;
     color: #ff7089;
 }
 
-.subtitle{
-    font-family: 'Italianno', cursive;
-    font-size: 2.0rem;
-    color: #ff7089;
-}
-
 .sub-subtitle{
-    font-family: 'Italianno', cursive;
-    font-size: 2.0rem;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
     color: #ff7089;
 }
 
 .body{
-    background-color: #e8e8e8;
+    background-color: #d1d1d1;
 }
 
 .tile{
     padding-left: 1.0rem;
     padding-right: 1.0rem;
+}
+
+.property-image{
+    width: 80rem;
+    height: 25rem;
+    border: 2px solid #ff7089;
+}
+
+.dropdown-item{
+    padding-left: 2rem;
+    color: #ff7089;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem;
+}
+
+.is-child{
+    border: 2px solid #ff7089;
 }

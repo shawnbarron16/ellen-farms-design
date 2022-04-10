@@ -12,27 +12,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-    <!--Create a Navbar-->
-    <div class="columns is-centered ">
-        <div class="column">
-            <img class="image" id="logo" width="200" height="200" src="images/Ellen-Farms-Logo.png">
-        </div>
-        <h1 class="title column has-text-centered">M. Ellen Farms</h1>
-        <div class="column has-text-centered">
-            <a class="is-link" href="pages/listings.html">Listings</a>
-            <a class="is-link" href="pages/about_us.html">About Us</a>
-            <a class="is-link" href="pages/cart.html">Cart</a>
-            <a class="is-link" href="pages/profile.html">Profile</a>
+    <!--Create a Title-->
+    <h1 class="has-text-centered title" id="title">M. Ellen Farms</h1>
+    <h2 class="main-subtitle has-text-centered">Columbia, Tennessee</h2>
+
+    <!--Create a NavMenu & Banner-->
+    <div class="columns">
+    <div class="column is-narrow">
+    <div class="menu">        
+        <ul><a class="is-link" href="pages/abouts_us.html">About Us</a></ul>
+        <ul><a class="is-link" href="pages/cart.html">Cart</a></ul>
+        <ul><a class="is-link" href="pages/profile.html">Profile</a></ul>
+        <ul class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+                <a class="is-link" href="pages/listings.html">Listings</a>
             </div>
+            <div class="dropdown-menu">
+                <div class="dropwdown-content">
+                    <div class="dropdown-item">Mens Tops</div>
+                    <div class="dropdown-item">Mens Bottoms</div>
+                    <div class="dropdown-item">Womens Tops</div>
+                    <div class="dropdown-item">Womens Bottoms</div>
+                    <div class="dropdown-item">Childrens Tops</div>
+                    <div class="dropdown-item">Childrens Bottoms</div>
+                    <div class="dropdown-item">Accessories</div>
+                </div>
+            </div>
+        </ul>
+    </div>
+    </div>
+    <div class="column is-three-fiths is-offset-1" id="property-image">
+        <img class="property-image" src="images/Property.jpg">
+    </div>
     </div>
 
-    <!--Create a Header Image-->
-    <img id="property-image" width="100%" height="10%" src="images/Property.jpg">
     <!--Create a preview of Listings-->
     <div class="is-centered">
-        <h1 class="title has-text-centered">New Listings</h1>
+        <h1 class="has-text-centered" id="title">New Listings</h1>
     </div>
     <div class="tile is-ancestor">
         <div class="tile is-parent">
