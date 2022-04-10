@@ -62,3 +62,7 @@
     font-family: 'Oxygen', sans-serif;
     font-size: 1rem;
 }
+
+.is-child{
+    border: 2px solid #ff7089;
+}
