@@ -5,8 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ellen Farms</title>
+
+    <!--Link CSS/Bulma and Get the Fonts-->
+    <link rel="stylesheet" href="/styles/listings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>Listings</h1>
+<body class="body">
+    <!--Have a header-->
+    <h1 class="has-text-centered title" id="title">Listings</h1>
+    <h6 class="has-text-centered main-subtitle"><a class="is-link" href="../">Ellen Farms</a></h6>
+
+    <!--Have a tab section to choose between categories and a side-navbar-->
+    <div class="columns">
+        <div class="column is-centered">
+            <div class="columns">
+                <div class="column is-narrow">
+                    <div class="menu">        
+                        <ul><a class="is-link" href="../pages/about_us.html">About Us</a></ul>
+                        <ul><a class="is-link" href="../pages/cart.html">Cart</a></ul>
+                        <ul><a class="is-link" href="../pages/profile.html">Profile</a></ul>
+                        <ul class="dropdown is-hoverable">
+                            <div class="dropdown-trigger">
+                                <a class="is-link" href="../pages/listings.html">Listings</a>
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropwdown-content">
+                                    <div class="dropdown-item">Mens Tops</div>
+                                    <div class="dropdown-item">Mens Bottoms</div>
+                                    <div class="dropdown-item">Womens Tops</div>
+                                    <div class="dropdown-item">Womens Bottoms</div>
+                                    <div class="dropdown-item">Childrens Tops</div>
+                                    <div class="dropdown-item">Childrens Bottoms</div>
+                                    <div class="dropdown-item">Accessories</div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="category-button has-text-centered is-justified">
+                <button class="button is-large">Mens</button>
+                <button class="button is-large">Womens</button>
+                <button class="button is-large">Childrens</button>
+                <button class="button is-large">Accessories</button>
+            </div>
+        </div>
+    </div>
+    <!--Show all listings. Use a pagination system-->
+    <div class="is-centered">
+        <h1 class="has-text-centered" id="title">New Listings</h1>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Under Armor Sweatshirt</p>
+                <p class="sub-subtitle">$30</p>
+                <img width="200" height="200" src="../images/under-armor-sweatshirt.jpg">
+            </article>
+        </div>
+    </div>
+
+    <!--Add a page select section-->
+    <nav class="pagination is-centered" role="navigation">
+        <ul class="pagination-list">
+            <li><a class="pagination-link is-current">1</a></li>
+            <li><a class="pagination-link">2</a></li>
+            <li><a class="pagination-link">3</a></li>
+            <li><a class="pagination-link">4    </a></li>
+        </ul>
+    </nav>
+
+    <!--Copy over the footer from the landing page-->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <a class="is-link" href="pages/contact_us.html">Contact Us</a>
+            <a class="is-link" href="pages/legal.html">Legal</a>
+            <a class="is-link" href="https://poshmark.com/closet/prettyprncess3?utm_campaign=referral_code%3DPRETTYPRNCESS3&utm_source=sms_sh&utm_content=ext_trk%3Dbranch%26feature%3Dsh_cl_ss_ios%26campaign%3Dshare_content_user.default.013%26rfuid%3Dext1%3A0195a761-8422-4113-a956-479eb182b6db&br_t=true&_branch_match_id=972177795081976859&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdZ3CQ0rdM4J84jMSgIAovc9VBsAAAA%3D">Poshmark</a>
+            <a class="is-link" href="https://www.mercari.com/u/640504169/">Mercari</a>
+        </div>
+    </footer>
 </body>
 </html>
