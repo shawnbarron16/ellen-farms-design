@@ -18,48 +18,52 @@
 <body class="body">
     <!--Have a header-->
     <h1 class="has-text-centered title" id="title">Listings</h1>
-    <h6 class="has-text-centered main-subtitle"><a class="is-link" href="../">Ellen Farms</a></h6>
 
     <!--Have a tab section to choose between categories and a side-navbar-->
-    <div class="columns">
-        <div class="column is-centered">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <div class="menu"> 
-                        <ul><a class="is-link" href="../">Home</a></ul>       
-                        <ul><a class="is-link" href="../pages/about_us.html">About Us</a></ul>
-                        <ul><a class="is-link" href="../pages/cart.html">Cart</a></ul>
-                        <ul><a class="is-link" href="../pages/profile.html">Profile</a></ul>
-                        <ul class="dropdown is-hoverable">
-                            <div class="dropdown-trigger">
-                                <a class="is-link" href="../pages/listings.html">Listings</a>
-                            </div>
-                            <div class="dropdown-menu">
-                                <div class="dropwdown-content">
-                                    <div class="dropdown-item">Mens Tops</div>
-                                    <div class="dropdown-item">Mens Bottoms</div>
-                                    <div class="dropdown-item">Womens Tops</div>
-                                    <div class="dropdown-item">Womens Bottoms</div>
-                                    <div class="dropdown-item">Childrens Tops</div>
-                                    <div class="dropdown-item">Childrens Bottoms</div>
-                                    <div class="dropdown-item">Accessories</div>
-                                </div>
-                            </div>
-                        </ul>
+    <div class="columns is-vcentered">
+        <div class="column is-2">
+            <div class="menu"> 
+                <ul><a class="is-link" href="../">Home</a></ul>       
+                <ul><a class="is-link" href="../pages/about_us.html">About Us</a></ul>
+                <ul><a class="is-link" href="../pages/cart.html">Cart</a></ul>
+                <ul><a class="is-link" href="../pages/profile.html">Profile</a></ul>
+                <ul class="dropdown is-hoverable">
+                    <div class="dropdown-trigger">
+                        <a class="is-link" href="../pages/listings.html">Listings</a>
                     </div>
-                </div>
-            </div>
-            <div class="category-button has-text-centered is-justified">
-                <button class="button is-large">Mens</button>
-                <button class="button is-large">Womens</button>
-                <button class="button is-large">Childrens</button>
-                <button class="button is-large">Accessories</button>
+                    <div class="dropdown-menu">
+                        <div class="dropwdown-content">
+                            <div class="dropdown-item">Mens Tops</div>
+                            <div class="dropdown-item">Mens Bottoms</div>
+                            <div class="dropdown-item">Womens Tops</div>
+                            <div class="dropdown-item">Womens Bottoms</div>
+                            <div class="dropdown-item">Childrens Tops</div>
+                            <div class="dropdown-item">Childrens Bottoms</div>
+                            <div class="dropdown-item">Accessories</div>
+                        </div>
+                    </div>
+                </ul>
             </div>
         </div>
+        <div class="column is-2"></div>
+        <div class="column has-text-centered is-one-third">
+            <h6 class="main-subtitle"><a href="../">Ellen Farms</a></h6>
+        </div>
+        <div class="column is-one-third"></div>
     </div>
     <!--Show all listings. Use a pagination system-->
     <div class="is-centered">
-        <h1 class="has-text-centered" id="title">New Listings</h1>
+        <div class="columns">
+            <div class="column">
+                <div class="category-button has-text-centered is-justified">
+                    <button class="button is-large">Mens</button>
+                    <button class="button is-large">Womens</button>
+                    <button class="button is-large">Childrens</button>
+                    <button class="button is-large">Accessories</button>
+                </div>
+            </div>
+        </div>
+        <h1 class="has-text-centered title" id="title">New Listings</h1>
     </div>
     <div class="tile is-ancestor">
         <div class="tile is-parent">

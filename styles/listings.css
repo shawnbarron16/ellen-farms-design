@@ -68,19 +68,18 @@
 .subtitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 2.0rem;
-    color: #ff7089;
+    
 }
 
 .main-subtitle{
     font-family: 'Italianno', cursive;
     font-size: 3.0rem;
-    color: #ff7089;
 }
 
 .sub-subtitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 1.5rem;
-    color: #ff7089;
+    
 }
 
 .pagination-link{
@@ -88,4 +87,12 @@
     margin-right: 1rem;
     color: #ff7089;
     border: 2px solid #ff7089;
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: black;
 }
