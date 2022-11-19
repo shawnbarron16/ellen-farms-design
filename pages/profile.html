@@ -7,7 +7,7 @@
     <title>Ellen Farms</title>
 
     <!--Link CSS/Bulma and Get the Fonts-->
-    <link rel="stylesheet" href="../styles/profile.css">
+    <link rel="stylesheet" href="/styles/listings.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
 </head>
 <body class="body">
+    <!--Have a header-->
     <h1 class="has-text-centered title" id="title">Profile</h1>
 
     <!--Have a tab section to choose between categories and a side-navbar-->
@@ -51,18 +52,24 @@
         <div class="column is-one-third"></div>
     </div>
 
-    <!--Display the two columns of the profile page-->
-    <div class="columns">
-        <div class="column is-one-half has-text-centered is-child">
-        <!--First Column-->
-        <div class="subtitle">Account Details</div>
+    <!--Display User Information In 3 Panels-->
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">First Name: Brooke</p>
+                <p class="subtitle">Last Name: Barron</p>
+                <p class="subtitle">Email: fakemail@ellenfarms.com</p>
+                <p class="subtitle">Signout</p>
+            </article>
         </div>
-        <div class="column is-one-half has-text-centered is-child">
-        <!--Second Column-->
-        <div class="subtitle">Order Status</div>`
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="subtitle">Recent Orders (0)</p>
+                <p class="subtitle">Being Packaged (0)</p>
+                <p class="subtitle">Shipped (0)</p>
+                <p class="subtitle">Completed (0)</p>
+            </article>
         </div>
     </div>
-
-    <!--Add a sign out button-->
 </body>
 </html>
