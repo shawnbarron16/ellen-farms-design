@@ -95,3 +95,8 @@ a:visited{
 a:link{
     color: black;
 }
+
+.cart-listing{
+    margin: auto;
+    width: 30%;
+}
